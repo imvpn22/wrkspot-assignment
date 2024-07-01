@@ -1,0 +1,28 @@
+.app-container {
+  padding: 0 40px;
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.app-header {
+  font-weight: 800;
+  margin: 20px 0;
+}
+
+.filter-header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.filter-left {
+  display: flex;
+}
+.filter-input {
+  padding: 7px 14px;
+  margin-right: 20px;
+  border: 2px solid #c3cfd9;
+  border-radius: 4px;
+  width: 200px;
+  box-sizing: border-box;
+}

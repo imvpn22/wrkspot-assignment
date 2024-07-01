@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.t-head {
+  font-weight: 800;
+  border: 2px solid #c3cfd9;
+  text-align: left;
+  padding: 7px 14px;
+}
+
+.t-cell {
+  font-weight: 400;
+  padding: 7px 14px;
+  border: 2px solid #c3cfd9;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.flag-icon {
+  height: 16px;
+}
