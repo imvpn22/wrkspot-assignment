@@ -8,8 +8,8 @@ const Dropdown: React.FC<IDropdownProps> = ({
   onSelect,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const handleOptionSelect = (opt: IDropdownOption) => {
-    onSelect(opt);
+  const handleOptionSelect = (option: IDropdownOption) => {
+    onSelect(option);
     setIsOpen(false);
   };
 
@@ -25,14 +25,14 @@ const Dropdown: React.FC<IDropdownProps> = ({
 
       {isOpen ? (
         <div className="options-container">
-          {options.map((opt: IDropdownOption) => (
+          {options.map((option: IDropdownOption) => (
             <div
-              key={opt.id}
+              key={option.id}
               className="options-item"
-              onClick={() => handleOptionSelect(opt)}
+              onClick={() => handleOptionSelect(option)}
               role="option"
             >
-              {opt.label}
+              {option.label}
             </div>
           ))}
         </div>
